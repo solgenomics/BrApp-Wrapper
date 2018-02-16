@@ -3,13 +3,25 @@
   "version": "0.0.1",
   "description": "Common wrapper template and templating script for BTI BrAPPs.",
   "main": "index.js",
-  "private": true,
-  "author": "",
+  "author": "David Lyon <npm@dauglyon.com>",
   "dependencies": {
     "htmltidy": "0.0.6",
     "mustache": "2.3.0"
   },
-  "bin":{
-    "wrapbrapp":"./index.js"
-  }
+  "bin": {
+    "wrapbrapp": "./index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solgenomics/BrApp-Wrapper.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solgenomics/BrApp-Wrapper/issues"
+  },
+  "homepage": "https://github.com/solgenomics/BrApp-Wrapper#readme"
 }
