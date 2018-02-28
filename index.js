@@ -16,6 +16,7 @@ function wrapBrAPP(){
         Mustache.render(template, pg.brapp, partials),
         {
             doctype: 'html5',
+            dropEmptyElements:false,
             indent: true,
             wrap:0
         }, 
