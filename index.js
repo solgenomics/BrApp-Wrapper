@@ -3,7 +3,7 @@
 function wrapBrAPP(){
     const fs = require('fs');
     const path = require('path');
-    const Mustache = require('Mustache');
+    const Mustache = require('mustache');
     const tidy = require('htmltidy').tidy;
     var pg = JSON.parse(fs.readFileSync("package.json").toString());
     var template = fs.readFileSync(path.resolve(__dirname, 'index.mustache')).toString();
