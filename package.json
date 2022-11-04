@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Common wrapper template and templating script for BTI BrAPPs.",
   "main": "index.js",
+  "type": "module",
   "author": "David Lyon <npm@dauglyon.com>",
   "dependencies": {
     "htmltidy": "0.0.6",
