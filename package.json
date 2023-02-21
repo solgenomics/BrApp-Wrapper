@@ -1,6 +1,6 @@
 {
   "name": "@solgenomics/brapp-wrapper",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Common wrapper template and templating script for BTI BrAPPs.",
   "main": "index.js",
   "author": "David Lyon <npm@dauglyon.com>",
